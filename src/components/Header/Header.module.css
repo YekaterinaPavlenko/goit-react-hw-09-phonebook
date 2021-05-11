@@ -1,0 +1,33 @@
+.header {
+  /* display: flex; */
+  width: 100%;
+  height: 60px;
+  /* padding: 5px; */
+  background-color: aqua;
+}
+.container {
+  display: flex;
+  height: 100%;
+  justify-content: space-between;
+}
+.navList {
+  display: flex;
+  /* width: 100%;
+  height: 100%; */
+  /* align-items: center; */
+  /* margin: auto; */
+}
+.navItem {
+  display: flex;
+  align-items: center;
+  margin: 10px;
+}
+
+.navLink {
+  font-size: 20px;
+  text-decoration: none;
+  margin: 10px;
+}
+.navLink_active {
+  color: red;
+}
